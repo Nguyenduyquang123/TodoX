@@ -1,0 +1,21 @@
+{
+  "name": "da-mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix FE && npm install --prefix BE && npm run build --prefix FE",
+    "start": "npm run start --prefix BE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nguyenduyquang123/TodoX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nguyenduyquang123/TodoX/issues"
+  },
+  "homepage": "https://github.com/Nguyenduyquang123/TodoX#readme",
+  "description": ""
+}
